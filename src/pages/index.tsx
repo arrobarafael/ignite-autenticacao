@@ -1,11 +1,7 @@
-import Head from 'next/head';
-import Image from 'next/image';
 import { FormEvent, useContext, useState } from 'react';
 import { AuthContext } from '../../contexts/AuthContext';
-import { parseCookies } from 'nookies';
 
 import styles from '../../styles/Home.module.css';
-import { GetServerSideProps } from 'next';
 import { withSSRGuest } from '../utils/withSSRGest';
 
 export default function Home() {
